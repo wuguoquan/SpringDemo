@@ -8,6 +8,18 @@ public class Book implements Serializable {
 	private String name;
 	private String author;
 
+	public Book() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Book(Integer id, String name, String author) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.author = author;
+	}
+
 	public Integer getId() {
 		return id;
 	}
