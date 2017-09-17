@@ -31,8 +31,4 @@ public class UserImage implements Serializable{
 		this.image = image;
 	}
 
-	
-
-	
-	
 }
